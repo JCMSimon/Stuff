@@ -68,13 +68,13 @@ class COGL:
 			#time.sleep(0.06)
 		
 			#~60 fps
-			#time.sleep(0.016)
+			time.sleep(0.016)
 		
 			#~why fps
 			#time.sleep(0.0016)
 
 			#5 fps
-			time.sleep(0.250)
+			#time.sleep(0.250)
 			
 			
 			#time.sleep(self.timeout)
