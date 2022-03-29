@@ -26,6 +26,7 @@ class Watcher:
 		self.driver.find_element(By.ID, "login-username").send_keys(Keys.ENTER)
 		
 		#how to get email code
+		#idk you tell me
 
 		time.sleep(timeout)
 		self.watch(channelname,timeout)
