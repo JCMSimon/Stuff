@@ -104,6 +104,15 @@ def main():
   # get url
   time.sleep(5)
   url = driver.current_url
+  driver.quit()
   print(url)
+  import os
+  # put url into clipboard using sys
+  command = 'echo ' + url + '| clip'
+  os.system(command)
 
+
+  print("Copied to clipboard")
+  time.sleep(3)
+  
 main()
